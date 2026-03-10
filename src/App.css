@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-root {
+  display: flex;
+  height: 100vh;        /* full viewport height */
+}
+
+/* Left panel */
+.app-left {
+  width: 60%;         
+  background-color: #242424;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+/* Right panel */
+.app-right {
+  flex: 1;          
+  background-color: #242424;
+  padding: 1rem;
+}
+
+.app-row-container {
+  display: flex;
+  gap: 50px;
+  padding: 1rem
+}
+
